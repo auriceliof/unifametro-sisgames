@@ -10,16 +10,16 @@ type Props ={
 function Pagination( {page, onChange} : Props ) {
 
     return (
-        <div className="dsmovie-pagination-container">
-            <div className="dsmovie-pagination-box">
-                <button className="dsmovie-pagination-button" 
+        <div className="sisgames-pagination-container">
+            <div className="sisgames-pagination-box">
+                <button className="sisgames-pagination-button" 
                     disabled={page.first} onClick={() => onChange(page.number - 1)}>
                     <Arrow />
                 </button>
                 <p>{`${page.number + 1} de ${page.totalPages}`}</p>
-                <button className="dsmovie-pagination-button" 
+                <button className="sisgames-pagination-button" 
                     disabled={page.last} onClick={() => onChange(page.number + 1)}>
-                    <Arrow className="dsmovie-flip-horizontal" />
+                    <Arrow className="sisgames-flip-horizontal" />
                 </button>
             </div>
         </div>

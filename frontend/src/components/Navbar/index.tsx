@@ -7,13 +7,13 @@ function Navbar() {
 
         <header>
             <nav className="container">
-                <div className="dsmovie-nav-content">
+                <div className="sisgames-nav-content">
                     <h1>SISGAMES</h1>
                     <a href="http://www.unifametro.edu.br/" target="_blank" rel="noreferrer">
                         
-                        <div className="dsmovie-contact-container">
+                        <div className="sisgames-contact-container">
                             <img className='logo-unifametro'   src={Logo} alt="Unifametro_Logo" />
-                            <p className="dsmovie-contact-link"></p>
+                            <p className="sisgames-contact-link"></p>
                         </div>
                     </a>
                 </div>

@@ -1,34 +1,34 @@
-.dsmovie-form-container {
+.sisgames-form-container {
     max-width: 480px;
     margin: 40px auto;
     padding: 20px;
 }
 
-.dsmovie-form {
+.sisgames-form {
     width: calc(100% - 20px);
 }
 
-.dsmovie-form-group {
+.sisgames-form-group {
     margin-bottom: 20px;
 }
 
-.dsmovie-form-group label {
+.sisgames-form-group label {
     font-size: 12px;
     color: #aaa;
 }
 
-.dsmovie-form-btn-container {
+.sisgames-form-btn-container {
     display: flex;
     justify-content: center;
 }
 
-.dsmovie-movie-card-image {
+.sisgames-movie-card-image {
     height: 300px;
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
 
-.dsmovie-card-bottom-container {
+.sisgames-card-bottom-container {
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@
     border-radius: 0 0 8px 8px;
 }
 
-.dsmovie-card-bottom-container h3 {
+.sisgames-card-bottom-container h3 {
     color: #4A4A4A;
     text-align: center;
     font-size: 14px;
@@ -46,7 +46,7 @@
     min-height: 40px;
 }
 
-.dsmovie-btn {
+.sisgames-btn {
     background-color: var(--color-primary);
     font-size: 14px;
     font-weight: 700;

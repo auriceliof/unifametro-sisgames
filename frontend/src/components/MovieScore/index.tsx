@@ -9,10 +9,10 @@ type Props = {
 function MovieSore( {score, count } : Props ) {
 
     return (
-        <div className="dsmovie-score-container">
-            <p className="dsmovie-score-value">{score > 0 ? score.toFixed(1) : '-'}</p>
+        <div className="sisgames-score-container">
+            <p className="sisgames-score-value">{score > 0 ? score.toFixed(1) : '-'}</p>
             <MovieStars score={score}/>
-            <p className="dsmovie-score-count">{count} avaliações</p>
+            <p className="sisgames-score-count">{count} avaliações</p>
         </div>
 
     );
