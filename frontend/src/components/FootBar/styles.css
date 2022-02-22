@@ -1,0 +1,33 @@
+footer{
+    background-color: #00a28d;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.sisgames-footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.sisgames-footer-content h1{
+     margin: 0;
+     font-weight: 700;
+     font-size: 24px;
+}
+
+.sisgames-footer-contact-container{
+    display: flex;
+    align-items: center;
+}
+
+.sisgames-footer-contact-link{
+    margin: 0 0 0 10px;
+    font-size: 12px;
+}
+
+.logo-unifametro{
+    height: 55px;
+}
