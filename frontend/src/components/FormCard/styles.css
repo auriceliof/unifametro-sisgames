@@ -57,3 +57,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.sisgames-btn:hover {
+    background-color: #00a28d;
+}

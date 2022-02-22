@@ -28,6 +28,16 @@ footer{
     font-size: 12px;
 }
 
-.logo-unifametro{
-    height: 55px;
+
+.sisgamges-footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sisgamges-footer-social svg {
+    width: 37px;
+    height: 29px;
+    margin: 32px;
+    color: #fff
 }
