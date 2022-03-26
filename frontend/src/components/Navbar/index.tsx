@@ -1,4 +1,5 @@
 import Logo  from 'assets/img/unifametro.png';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function Navbar() {
@@ -8,7 +9,9 @@ function Navbar() {
         <header>
             <nav className="container">
                 <div className="sisgames-nav-content">
-                    <h1>SISGAMES</h1>
+                    <Link to="/">
+                        <h1>SISGAMES</h1>
+                    </Link>
                     <a href="http://www.unifametro.edu.br/" target="_blank" rel="noreferrer">
                         
                         <div className="sisgames-contact-container">

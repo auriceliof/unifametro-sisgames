@@ -46,7 +46,7 @@ function FormCard( { movieId } : Props ) {
         }
 
         axios(config).then(response => {
-            navigate("/");
+            navigate("/listing");
         });
         
     }
@@ -62,7 +62,7 @@ function FormCard( { movieId } : Props ) {
                         <input type="email" className="form-control" id="email" />
                     </div>
                     <div className="form-group sisgames-form-group">
-                        <label htmlFor="score">Informe sua avaliação</label>
+                        <label htmlFor="score">Informe quantas estrelas você dá ao jogo</label>
                         <select className="form-control" id="score">
                             <option>1</option>
                             <option>2</option>
@@ -75,7 +75,7 @@ function FormCard( { movieId } : Props ) {
                         <button type="submit" className="btn btn-primary sisgames-btn">Salvar</button>
                     </div>
                 </form >
-                <Link to="/">
+                <Link to="/listing">
                     <button className="btn btn-primary sisgames-btn mt-3">Cancelar</button>
                 </Link>
             </div >
